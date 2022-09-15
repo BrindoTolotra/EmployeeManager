@@ -18,7 +18,7 @@ export type Employee = {
     ref?: number,
     birthDate?: string,
     sex?: string,
-    function?: string,
+    position?: string,
     domain?: string,
     email?: string
 }
