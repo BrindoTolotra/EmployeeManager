@@ -1,0 +1,14 @@
+.dashboard{
+    height: 90vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.dashboard-content{
+    height: 90vh;
+    width: 100%;
+}

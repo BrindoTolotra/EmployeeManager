@@ -1,0 +1,39 @@
+.loading-container {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.circle {
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border: 8px solid #ffb300;
+    border-radius: 50%;
+    animation: loading 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #ffb300 transparent transparent transparent;
+}
+
+.c1 {
+    animation-delay: -0.35s;
+}
+
+.c2 {
+    animation-delay: -0.22s;
+}
+
+.c3 {
+    animation-delay: -0.12s;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

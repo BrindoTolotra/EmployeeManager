@@ -1,0 +1,123 @@
+body,
+.fullscreen {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: white;
+}
+
+.text-warning{
+    color: #4d0303 !important;
+}
+
+.btn-warning{
+    background-color: #4d0303 !important;
+}
+
+.bg-warning{
+    background: #4d0303 !important;
+}
+
+.abs-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.z--1{
+    z-index: -1 !important;
+}
+
+.btn{
+    transition: all .5s !important;
+}
+
+
+.background{
+    overflow: hidden;
+}
+
+.left--100{
+    position: relative;
+    left: -10%;
+    opacity: 0;
+    animation: left--100 1s forwards;
+}
+
+.right--100 {
+    position: relative;
+    left: 10%;
+    opacity: 0;
+    animation: right--100 2s forwards;
+}
+
+.top--100{
+    position: relative;
+    top: -10% !important;
+    opacity: 0;
+    animation: top--100 1s forwards;
+}
+
+.abs-end{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+@keyframes top--100 {
+    0%{
+        top: -10%;
+        opacity: 0;
+    }
+    100%{
+        left: 0%;
+        opacity: 1;
+    }
+}
+@keyframes right--100 {
+    0% {
+        left: 10%;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+}
+@keyframes left--100 {
+    0%{
+        left: -10%;
+        opacity: 0;
+    }
+    100%{
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+
+.addName{
+    width: 30vw !important;
+    height: 40vh !important;
+    background: #F4F7FF;
+}
+
+.bg{
+    background: #F4F7FF;
+}
